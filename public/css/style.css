@@ -114,9 +114,8 @@ body{
     align-items: flex-start;
 }
 
-
 .main_header_right figure img {
-
+  filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
 }
 
 
@@ -130,7 +129,7 @@ footer p{
     margin: 0;
     text-align: center;
     color: #fff;
-    line-height: 5rem;
+    line-height: 4rem;
     font-size: 1.4rem;
     margin-top: auto;
 }
