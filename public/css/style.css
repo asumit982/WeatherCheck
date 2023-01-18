@@ -21,6 +21,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .row{
@@ -60,6 +61,8 @@ body{
     color: var(--main-color);
 }
 
+
+
 @keyframes rot {
     0%{
         transform: rotate(0deg);
@@ -72,7 +75,7 @@ body{
 /* main-header */
 
 .main_header_left{
-    height: 70rem;
+    height: 53rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +110,7 @@ body{
     box-shadow: 0 8px 6px -6px var(--main-color);
 }
 .main_header_right{
-    height: 70rem;
+    height: 53rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,11 +121,20 @@ body{
   filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
 }
 
+/* error page style */
+.errimg{
+  width: 60rem;
+  height: 30rem;
+}
 
 /* footer */
 footer{
     width: 100%;
     background-color: var(--main-bg);
+    position: absolute;
+    bottom: 0;
+    
+
 }
 
 footer p{
